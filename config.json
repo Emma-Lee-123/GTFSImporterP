@@ -1,0 +1,36 @@
+{
+    "db": {
+      "driver": "ODBC Driver 17 for SQL Server",
+      "server": "DESKTOP-U5EK8RA",
+      "database": "webapp",
+      "username": "webapp-admin",
+      "password": "Passw0rd123"
+    },
+    "gtfs_import": {
+    "calendar_dates.txt": {
+      "table": "CalendarDates",
+      "enabled": true
+    },
+    "routes.txt": {
+      "table": "Routes",
+      "enabled": false
+    },
+    "stops.txt": {
+      "table": "Stops",
+      "enabled": false
+    },
+    "trips.txt": {
+      "table": "Trips",
+      "enabled": false
+    },
+    "stop_times.txt": {
+      "table": "StopTimes",
+      "enabled": false
+    },
+    "shapes.txt": {
+      "table": "Shapes",
+      "enabled": false
+    }
+  }
+}
+  
