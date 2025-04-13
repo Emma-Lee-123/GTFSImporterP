@@ -1,0 +1,15 @@
+# Ignore Python virtual environments
+.venv/
+
+# VS Code settings
+.vscode/
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
+
+# Log files
+*.log
