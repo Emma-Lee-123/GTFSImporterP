@@ -1,10 +1,10 @@
 {
     "db": {
       "driver": "ODBC Driver 17 for SQL Server",
-      "server": "DESKTOP-U5EK8RA",
-      "database": "webapp",
-      "username": "webapp-admin",
-      "password": "Passw0rd123"
+      "server": "DB Server",
+      "database": "db name",
+      "username": "user name",
+      "password": "password"
     },
     "gtfs_import": {
     "calendar_dates.txt": {
