@@ -7,6 +7,7 @@ here is db scripts to create tables:
 
 use your_db_name
 go
+
 IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'CalendarDates')
 begin
 CREATE TABLE CalendarDates (
